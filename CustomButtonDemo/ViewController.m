@@ -11,7 +11,6 @@
 #import "CustomTextView.h"
 
 @interface ViewController () <KeyBoardViewDelegate>
-@property (nonatomic, strong) UIButton * button;
 @property (nonatomic, strong) CustomButtonView * customBtnView;
 @property (nonatomic, strong) CustomTextView * customTextView;
 @property (nonatomic, copy) NSString * buttonUrl;

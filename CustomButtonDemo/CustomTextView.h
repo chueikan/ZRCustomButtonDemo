@@ -15,7 +15,7 @@
 - (void)inputText:(UITextView *)textView;
 
 @end
-@interface CustomTextView : UIView <UITextViewDelegate>
+@interface CustomTextView : UIView
 @property (nonatomic, strong) UITextView * textView;
 @property (nonatomic, strong) UIButton * confirmBtn;
 

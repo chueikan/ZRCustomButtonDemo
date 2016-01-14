@@ -111,8 +111,6 @@ andRightButtonBackgroundColor:(UIColor *)RightBgColor
     
     
 
-    
-    
     _isEditing = isEditing;
     _isTel = isTel;
     
@@ -124,9 +122,6 @@ andRightButtonBackgroundColor:(UIColor *)RightBgColor
     if (_isEditing) {//可编辑状态
         [self smallButtonsShowed];
     }
-        
-    
-    
 }
 /**
  *  显示两个小按钮
@@ -142,8 +137,6 @@ andRightButtonBackgroundColor:(UIColor *)RightBgColor
     _leftButton.center = CGPointMake(_bigButton.center.x, _bigButton.center.y);
     _rightButton.center = CGPointMake(_bigButton.center.x, _bigButton.center.y);
 }
-
-
 
 
 @end
