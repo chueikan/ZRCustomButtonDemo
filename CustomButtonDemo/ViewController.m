@@ -26,7 +26,7 @@
     //自定义“三个按钮控件”
     _customBtnView = [[CustomButtonView alloc] initWithFrame:CGRectMake(self.view.frame.size.width / 2 - 100, 280, 200, 90)];
     [_customBtnView makeButtonsWithTitle:@"开启美食之旅"
-                            andIsEditing:YES //大按钮是否处于编辑状态
+                            andIsEditing:NO //大按钮是否处于编辑状态
                                 andIsTel:NO //非编辑状态下的大按钮 点击事件是否是拨打电话(YES:拨打电话/NO:跳转网页)
                       andBackgroundColor:[UIColor orangeColor] andTitleColor:[UIColor whiteColor]
                              andFontSize:18
@@ -51,7 +51,7 @@
         
 
     }
-    _buttonUrl = @"http://";//在这里填充从服务器请求到的真实数据(一个网页链接或一个手机号码)
+    _buttonUrl = @"http://www.baidu.com";//在这里填充从服务器请求到的真实数据(一个网页链接或一个手机号码)
 
 }
 #pragma mark - 大按钮的点击事件(只有在isEditing == NO的时候才会执行)
