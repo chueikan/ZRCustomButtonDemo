@@ -51,7 +51,7 @@
         
 
     }
-    _buttonUrl = @"http://www.baidu.com";//在这里填充从服务器请求到的真实数据(一个网页链接或一个手机号码)
+    _buttonUrl = @"https://github.com/van7ish/";//在这里填充从服务器请求到的真实数据(一个网页链接或一个手机号码)
 
 }
 #pragma mark - 大按钮的点击事件(只有在isEditing == NO的时候才会执行)
